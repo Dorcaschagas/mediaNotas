@@ -15,7 +15,7 @@ function media(){
     let media = parseFloat(soma) / 10
 
     if(media > 0){
-        msg.innerHTML = `Média: ${media}`
+        msg.innerHTML = `Média: ${media.toFixed(2)}`
         aprovacao.innerHTML = media >= 7? 'Aprovado!':'Reprovado! \n'
             
     } else {
