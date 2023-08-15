@@ -31,3 +31,4 @@ function exame(valor){
         aprovacao.innerHTML += `Você precisa de:${restante.toFixed(2)} no exame, Bons estudos!`
     }
 }
+
